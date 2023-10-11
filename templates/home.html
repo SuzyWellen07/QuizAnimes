@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <!-- CSS Externo (não será usado no momento devido conflitos com o fastapi)-->
+    <!-- <link rel="stylesheet" href="../view/home.css"> --> 
+
+    <!-- CSS Interno -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('https://i.pinimg.com/564x/79/19/23/791923c73a1ce8e87f21433ebcef91f4.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo ao Quiz de Animes!</h1>
+        <p>Teste seus conhecimentos respondendo às perguntas do nosso quiz.</p>
+        <a href="/animes">Iniciar</a>
+    </div>
+</body>
+</html>
