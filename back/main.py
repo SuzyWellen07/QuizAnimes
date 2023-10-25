@@ -19,7 +19,7 @@ app = FastAPI()
 # HOME
 @app.get("/", response_class=HTMLResponse)
 async def home():
-    with open("templates/home.html", "r", encoding="utf-8") as file:
+    with open("../front/templates/home.html", "r", encoding="utf-8") as file:
         html_content = file.read()
     
     return HTMLResponse(content=html_content)
