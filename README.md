@@ -10,6 +10,12 @@ Implementar uma aplicação do tipo Quiz onde o usuário pode testar seu conheci
 - Chaisaw Man
 - Dragon Ball Z
 
+## Padrões de Projetos utilizados
+
+-
+-
+-
+
 ---
 
 ## Instalação do ambiente python

@@ -1,6 +1,7 @@
 {
     "quiz": [
       {
+        "id": 1,
         "anime": "Chainsaw Man",
         "difficulty": 2,
         "question": "Qual é o nome do protagonista de Chainsaw Man?",
@@ -24,6 +25,7 @@
         ]
       },
       {
+        "id": 2,
         "anime": "Chainsaw Man",
         "difficulty": 1,
         "question": "O que é Chainsaw Man?",
@@ -47,6 +49,7 @@
         ]
       },
       {
+        "id": 3,
         "anime": "Chainsaw Man",
         "difficulty": 3,
         "question": "Qual é o nome do cão de Denji em Chainsaw Man?",
@@ -70,6 +73,7 @@
         ]
       },
       {
+        "id": 4,
         "anime": "Chainsaw Man",
         "difficulty": 2,
         "question": "Qual é a ocupação principal de Aki em Chainsaw Man?",
@@ -93,7 +97,8 @@
         ]
       },
       {
-      "anime": "Chainsaw Man",
+      "id": 5,
+        "anime": "Chainsaw Man",
       "difficulty": 2,
       "question": "Qual é a arma principal usada por Denji quando ele se transforma em Chainsaw Man?",
       "response": [
@@ -116,6 +121,7 @@
       ]
     },
     {
+      "id": 6,
       "anime": "Chainsaw Man",
       "difficulty": 1,
       "question": "O que Pochita, o cão de Denji, se transforma após sua morte?",
@@ -139,6 +145,7 @@
       ]
     },
     {
+      "id": 7,
       "anime": "Chainsaw Man",
       "difficulty": 3,
       "question": "Qual é o nome do antagonista na série?",
@@ -162,6 +169,7 @@
       ]
     },
     {
+      "id": 8,
       "anime": "Chainsaw Man",
       "difficulty": 1,
       "question": "Quem é o líder da Divisão Especial de Controle de Monstros?",
@@ -185,6 +193,7 @@
       ]
     },
     {
+      "id":9,
       "anime": "Chainsaw Man",
       "difficulty": 3,
       "question": "Qual é a principal fraqueza de Denji quando se transforma em Chainsaw Man?",
@@ -208,6 +217,7 @@
       ]
     },
     {
+      "id": 10,
       "anime": "Chainsaw Man",
       "difficulty": 2,
       "question": "Qual é a habilidade especial de Aki em Chainsaw Man?",
@@ -231,6 +241,7 @@
       ]
     },
     {
+      "id": 11,
       "anime": "Chainsaw Man",
       "difficulty": 1,
       "question": "Qual é o objetivo de Denji na série?",
@@ -254,6 +265,7 @@
       ]
     },
     {
+      "id": 12,
       "anime": "Chainsaw Man",
       "difficulty": 2,
       "question": "O que é necessário para Denji se transformar em Chainsaw Man?",
@@ -277,7 +289,8 @@
       ]
     },
     {
-        "anime": "Demon Slayer",
+      "id": 13,  
+      "anime": "Demon Slayer",
         "difficulty": 2,
         "question": "Qual é a respiração utilizada pelo protagonista Tanjiro Kamado?",
         "response": [
@@ -300,6 +313,7 @@
         ]
       },
       {
+        "id": 14,
         "anime": "Demon Slayer",
         "difficulty": 1,
         "question": "Qual é o nome da irmã de Tanjiro, que se transformou em um demônio?",
@@ -323,6 +337,7 @@
         ]
       },
       {
+        "id": 15,
         "anime": "Demon Slayer",
         "difficulty": 3,
         "question": "Quem matou o Kyojuro Rengoku, Hashira das Chamas?",
@@ -346,6 +361,7 @@
         ]
       },
       {
+        "id": 16,
         "anime": "Demon Slayer",
         "difficulty": 2,
         "question": "Qual é o nome da organização de caçadores de demônios em Demon Slayer?",
@@ -369,6 +385,7 @@
         ]
       },
       {
+        "id": 17,
         "anime": "Demon Slayer",
         "difficulty": 1,
         "question": "Qual é a espécie de demônios que Tanjiro enfrenta na série?",
@@ -392,6 +409,7 @@
         ]
       },
       {
+        "id": 18,
         "anime": "Demon Slayer",
         "difficulty": 3,
         "question": "Quem é o Hashira da Serpente em Demon Slayer?",
@@ -415,6 +433,7 @@
         ]
       },
       {
+        "id": 19,
         "anime": "Demon Slayer",
         "difficulty": 2,
         "question": "Qual é o objetivo principal de Tanjiro em Demon Slayer?",
@@ -438,6 +457,7 @@
         ]
       },
       {
+        "id": 20,
         "anime": "Demon Slayer",
         "difficulty": 1,
         "question": "Qual é a técnica respiratória utilizada por Zenitsu Agatsuma?",
@@ -461,6 +481,7 @@
         ]
       },
       {
+        "id": 21,
         "anime": "Demon Slayer",
         "difficulty": 2,
         "question": "Qual é o nome do líder da organização de caçadores de demônios em Demon Slayer?",
@@ -484,6 +505,7 @@
         ]
       },
       {
+        "id": 22,
         "anime": "Dragon Ball Z",
         "difficulty": 2,
         "question": "Qual é a transformação mais poderosa de Goku?",
@@ -507,6 +529,7 @@
         ]
       },
       {
+        "id": 23,
         "anime": "Dragon Ball Z",
         "difficulty": 1,
         "question": "Quem é o vilão principal na saga de Namekusei?",
@@ -530,6 +553,7 @@
         ]
       },
       {
+        "id": 24,
         "anime": "Dragon Ball Z",
         "difficulty": 3,
         "question": "Onde fica localizado a Sala do Tempo que Vegeta utiliza para treinar?",
@@ -553,6 +577,7 @@
         ]
       },
       {
+        "id": 25,
         "anime": "Dragon Ball Z",
         "difficulty": 2,
         "question": "Qual é o nome do filho mais velho de Goku?",
@@ -576,6 +601,7 @@
         ]
       },
       {
+        "id": 26,
         "anime": "Dragon Ball Z",
         "difficulty": 2,
         "question": "Qual é a técnica utilizada por Piccolo para voar?",
@@ -599,6 +625,7 @@
         ]
       },
       {
+        "id": 27,
         "anime": "Dragon Ball Z",
         "difficulty": 3,
         "question": "Quem é o androide mais poderoso criado pelo Dr. Gero?",
@@ -622,6 +649,7 @@
         ]
       },
       {
+        "id": 28,
         "anime": "Dragon Ball Z",
         "difficulty": 2,
         "question": "Qual é o nome do ataque mais poderoso de Vegeta?",
@@ -645,6 +673,7 @@
         ]
       },
       {
+        "id": 29,
         "anime": "Dragon Ball Z",
         "difficulty": 3,
         "question": "Quem é o Deus da Destruição que aparece em 'Dragon Ball Z'?",
@@ -668,6 +697,7 @@
         ]
       },
       {
+        "id": 30,
         "anime": "Dragon Ball Z",
         "difficulty": 2,
         "question": "Qual é o nome da fusão entre Goku e Vegeta?",

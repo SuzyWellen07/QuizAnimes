@@ -3,7 +3,8 @@ from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 
 class Question:
-    def __init__(self, question, response, difficulty, punctuation):
+    def __init__(self, id, question, response, difficulty, punctuation):
+        self.id = id
         self.question = question
         self.response = response
         self.difficulty = difficulty
