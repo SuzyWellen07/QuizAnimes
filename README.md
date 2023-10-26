@@ -12,9 +12,9 @@ Implementar uma aplicação do tipo Quiz onde o usuário pode testar seu conheci
 
 ## Padrões de Projetos utilizados
 
--
--
--
+- Strategy
+- Singleton
+- Factory
 
 ---
 
