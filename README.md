@@ -1,6 +1,6 @@
 # Gerador de Quiz
 
-Implementar uma aplicação do tipo Quiz onde o usuário pode testar seu conhecimento em determinado assunto(s). O app lê de um arquivo ou base de dados no mínimo 10 questões e apresenta ao usuário que poderá escolher uma alternativa por questão. Ao final é apresentado o resultado do quiz (nota, total de acertos).
+Foi desenvolvido uma aplicação no estilo Quiz que permite ao usuário testar seu conhecimento em um tópico específico. A aplicação lê um arquivo JSON contendo um conjunto mínimo de 10 perguntas e as apresenta ao usuário, que podem selecionar uma alternativa para cada pergunta. Ao concluir o Quiz, o aplicativo exibe o resultado, incluindo a pontuação obtida e o número total de respostas corretas.
 
 ## Tema
 
