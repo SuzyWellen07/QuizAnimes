@@ -1,6 +1,7 @@
 import json
 import random
 
+# Função para mapear o nível de dificuldade em palavras
 def difficulty_to_word(difficulty):
     if difficulty == 1:
         return "Fácil"
@@ -11,6 +12,7 @@ def difficulty_to_word(difficulty):
     else:
         return "Desconhecido"
 
+# Classe que representa uma pergunta
 class Question:
     def __init__(self, id, question, response, difficulty, anime):
         self.id = id
@@ -31,13 +33,13 @@ class Question:
             if 1 <= user_resposta <= len(self.response):
                 resposta_selecionada = self.response[user_resposta - 1]
                 if resposta_selecionada["correct"]:
-                    points_manager.add_points(10)  # Adicione pontos quando a resposta estiver correta
+                    points_manager.add_points(10)
                     return True
         except (ValueError, IndexError):
             pass
-
         return False
 
+# Classe Singleton para gerenciar os pontos
 class PointsSingleton:
     _instance = None
 
@@ -55,15 +57,19 @@ class PointsSingleton:
 
 points_manager = PointsSingleton()
 
+# Função para filtrar perguntas por dificuldade
 def filter_questions_by_difficulty(questions, difficulty):
     return [question for question in questions if question.difficulty == difficulty]
 
+# Função para filtrar perguntas por anime
 def filter_questions_by_anime(questions, anime):
     return [question for question in questions if question.anime == anime]
 
+# Função para obter opções de animes únicos do conjunto de perguntas
 def get_unique_anime_options(questions):
     return list(set(question.anime for question in questions))
 
+# Função para carregar perguntas de um arquivo JSON
 def load_questions_from_json(file_name):
     with open(file_name, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -81,8 +87,31 @@ def load_questions_from_json(file_name):
 
     return questions
 
+# Interface para as estratégias de seleção de perguntas
+class QuestionSelectionStrategy:
+    def select_question(self, questions):
+        pass
+
+# Estratégia de seleção aleatória
+class RandomQuestionStrategy(QuestionSelectionStrategy):
+    def select_question(self, questions):
+        return random.choice(questions)
+
+# Estratégia de seleção por dificuldade
+class DifficultyQuestionStrategy(QuestionSelectionStrategy):
+    def __init__(self, difficulty):
+        self.difficulty = difficulty
+
+    def select_question(self, questions):
+        filtered_questions = filter_questions_by_difficulty(questions, self.difficulty)
+        if filtered_questions:
+            return random.choice(filtered_questions)
+        else:
+            return None
+
 def main():
     questions = load_questions_from_json('anime.json')
+    question_selection_strategy = RandomQuestionStrategy()  # Estratégia padrão: seleção aleatória
 
     print("Bem-vindo ao Quiz de Anime!\n")
 
@@ -95,7 +124,7 @@ def main():
 
         if choice == "1":
             difficulty = int(input("\nEscolha a dificuldade (1-Fácil, 2-Moderado, 3-Difícil): "))
-            filtered_questions = filter_questions_by_difficulty(questions, difficulty)
+            question_selection_strategy = DifficultyQuestionStrategy(difficulty)
         elif choice == "2":
             anime_options = get_unique_anime_options(questions)
             print("\nAnimes disponíveis:")
@@ -105,6 +134,11 @@ def main():
             if 1 <= anime_choice <= len(anime_options):
                 anime = anime_options[anime_choice - 1]
                 filtered_questions = filter_questions_by_anime(questions, anime)
+                if filtered_questions:
+                    question_selection_strategy = RandomQuestionStrategy()  # Redefinir para seleção aleatória
+                else:
+                    print("\nNenhuma pergunta correspondente encontrada.")
+                    continue
             else:
                 print("\nOpção de anime inválida.")
                 continue
@@ -114,20 +148,6 @@ def main():
         else:
             print("\nOpção inválida. Por favor, escolha 1, 2 ou 3.")
             continue
-
-        if filtered_questions:
-            for question in filtered_questions:
-                question.display()
-                while True:
-                    user_resposta = input("Digite o número da resposta correta: ")
-                    if question.check_resposta(user_resposta):
-                        total_points = points_manager.get_total_points()
-                        print("Resposta correta!\n")
-                        break
-                    else:
-                        print("Resposta incorreta.\n")
-        else:
-            print("Nenhuma pergunta correspondente encontrada.")
 
 if __name__ == "__main__":
     main()

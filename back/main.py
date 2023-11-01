@@ -28,7 +28,7 @@ async def home():
 # JSON
 @app.get("/animes")
 def get_animes():
-    with open('animes.json', 'r', encoding='utf-8') as f:
+    with open('anime.json', 'r', encoding='utf-8') as f:
         json_question = json.load(f)  # Upload question JSON file 
 
     return json_question
