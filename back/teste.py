@@ -83,7 +83,8 @@ def load_questions_from_json(file_name):
         response = question_data["response"]
         difficulty = question_data["difficulty"]
         anime = question_data["anime"]
-        questions.append(Question(id, question, response, difficulty, anime))
+        # questions.append(Question(id, question, response, difficulty, anime))
+        questions.append(QuestionFactory.create(question_data)
 
     return questions
 
