@@ -25,14 +25,12 @@ Implementar uma aplicação do tipo Quiz onde o usuário pode testar seu conheci
 python3 -m venv env
 # 3. ativar ambiente virtual
 source env/bin/activate
-# 4. instalar dependências
-pip install fastapi uvicorn requests
 ```
 
 ### Iniciar servidor fastapi
 
 ```bash
-uvicorn main:app --reload
+python server.py
 ```
 
 ---
