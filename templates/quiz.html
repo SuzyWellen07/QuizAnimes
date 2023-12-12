@@ -1,0 +1,50 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Anime</title>
+</head>
+<body>
+    <h1>Quiz de Anime</h1>
+    
+    <form method="POST" action="{{ url_for('quiz') }}">
+        <p>{{ question.question }}</p>
+        
+        {% for i, option in enumerate(question.response, start=1) %}
+            <input type="radio" name="user_response" value="{{ i }}"> {{ option.option }}<br>
+        {% endfor %}
+
+        <input type="submit" value="Responder">
+    </form>
+
+    <p>{{ feedback }}</p>
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Anime</title>
+</head>
+<body>
+    <h1>Quiz de Anime</h1>
+    
+    <form method="POST" action="{{ url_for('routes.quiz') }}">    
+            <p>{{ question.question }}</p>
+        
+        {% for option in question.response %}
+             <input type="radio" id="answer{{ loop.index }}" name="user_response" value="{{ loop.index }}" required>
+             <label for="answer{{ loop.index }}">{{ loop.index }}. {{ option['option'] }}</label><br>
+
+        {% endfor %}
+        <input type="submit" value="Enviar" />
+    </form>
+
+    <p>{{ feedback }}</p>
+</body>
+</html>
+>>>>>>> 78d9105157d3f4a6edade77023ead9244fc7fea6

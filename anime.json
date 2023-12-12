@@ -1,0 +1,77 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "anime": "Chainsaw Man",
+        "difficulty": 2,
+        "question": "Qual é o nome do protagonista de Chainsaw Man?",
+        "response": [
+          {
+            "option": "Power",
+            "correct": false
+          },
+          {
+            "option": "Makima",
+            "correct": false
+          },
+          {
+            "option": "Aki",
+            "correct": false
+          },
+          {
+            "option": "Denji",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "anime": "Chainsaw Man",
+        "difficulty": 1,
+        "question": "O que é Chainsaw Man?",
+        "response": [
+          {
+            "option": "Um ser humano transformado em um ser com partes de motosserra",
+            "correct": true
+          },
+          {
+            "option": "Uma organização secreta de caçadores de demônios",
+            "correct": false
+          },
+          {
+            "option": "Uma arma mágica poderosa",
+            "correct": false
+          },
+          {
+            "option": "Um demônio com sede de sangue",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "anime": "Chainsaw Man",
+        "difficulty": 3,
+        "question": "Qual é o nome do cão de Denji em Chainsaw Man?",
+        "response": [
+          {
+            "option": "Rex",
+            "correct": false
+          },
+          {
+            "option": "Pochita",
+            "correct": true
+          },
+          {
+            "option": "Buddy",
+            "correct": false
+          },
+          {
+            "option": "Spike",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+  

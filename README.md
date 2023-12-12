@@ -21,18 +21,17 @@ Foi desenvolvido uma aplicação no estilo Quiz que permite ao usuário testar s
 ## Instalação do ambiente python
 
 ```bash
+# 1. pip install requirements.txt
 # 2. criar ambiente virtual
 python3 -m venv env
 # 3. ativar ambiente virtual
 source env/bin/activate
-# 4. instalar dependências
-pip install fastapi uvicorn requests
 ```
 
 ### Iniciar servidor fastapi
 
 ```bash
-uvicorn main:app --reload
+python server.py
 ```
 
 ---
