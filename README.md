@@ -21,6 +21,7 @@ Implementar uma aplicação do tipo Quiz onde o usuário pode testar seu conheci
 ## Instalação do ambiente python
 
 ```bash
+# 1. pip install requirements.txt
 # 2. criar ambiente virtual
 python3 -m venv env
 # 3. ativar ambiente virtual

@@ -11,12 +11,12 @@ class Question:
         self.anime = anime
 
     def display(self):
-        print(f"Questão (Nível: {difficulty_to_word(self.difficulty)}) - {self.anime}:")
+        print(f"Questão (Nível: {difficulty_to_word(self.difficulty)}) - {self.anime}:")   
         print(self.question)
         for i, resposta in enumerate(self.response, start=1):
             print(f"{i}. {resposta['option']}", end="\n")
 
-    def check_resposta(self, user_resposta):
+    def check_resposta(self, user_resposta, points_manager):
         try:
             user_resposta = int(user_resposta)
             if 1 <= user_resposta <= len(self.response):
@@ -90,18 +90,13 @@ def load_questions_from_json(file_name):
     questions = []
 
     for question_data in questions_data:
-<<<<<<< HEAD:back/teste.py
         id = question_data["id"]
         question = question_data["question"]
         response = question_data["response"]
         difficulty = question_data["difficulty"]
         anime = question_data["anime"]
         # questions.append(Question(id, question, response, difficulty, anime))
-        questions.append(QuestionFactory.create(question_data)
-=======
-        question = QuestionFactory.create(question_data)
-        questions.append(question)
->>>>>>> 25b6a9b (update):quiz_utils.py
+        questions.append(QuestionFactory.create(question_data))
 
     return questions
 

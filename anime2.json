@@ -1,0 +1,725 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "anime": "Chainsaw Man",
+        "difficulty": 2,
+        "question": "Qual é o nome do protagonista de Chainsaw Man?",
+        "response": [
+          {
+            "option": "Power",
+            "correct": false
+          },
+          {
+            "option": "Makima",
+            "correct": false
+          },
+          {
+            "option": "Aki",
+            "correct": false
+          },
+          {
+            "option": "Denji",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "anime": "Chainsaw Man",
+        "difficulty": 1,
+        "question": "O que é Chainsaw Man?",
+        "response": [
+          {
+            "option": "Um ser humano transformado em um ser com partes de motosserra",
+            "correct": true
+          },
+          {
+            "option": "Uma organização secreta de caçadores de demônios",
+            "correct": false
+          },
+          {
+            "option": "Uma arma mágica poderosa",
+            "correct": false
+          },
+          {
+            "option": "Um demônio com sede de sangue",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "anime": "Chainsaw Man",
+        "difficulty": 3,
+        "question": "Qual é o nome do cão de Denji em Chainsaw Man?",
+        "response": [
+          {
+            "option": "Rex",
+            "correct": false
+          },
+          {
+            "option": "Pochita",
+            "correct": true
+          },
+          {
+            "option": "Buddy",
+            "correct": false
+          },
+          {
+            "option": "Spike",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "anime": "Chainsaw Man",
+        "difficulty": 2,
+        "question": "Qual é a ocupação principal de Aki em Chainsaw Man?",
+        "response": [
+          {
+            "option": "Médico",
+            "correct": false
+          },
+          {
+            "option": "Cozinheiro",
+            "correct": false
+          },
+          {
+            "option": "Caçador de Demônios",
+            "correct": true
+          },
+          {
+            "option": "Policial",
+            "correct": false
+          }
+        ]
+      },
+      {
+      "id": 5,
+        "anime": "Chainsaw Man",
+      "difficulty": 2,
+      "question": "Qual é a arma principal usada por Denji quando ele se transforma em Chainsaw Man?",
+      "response": [
+        {
+          "option": "Arco",
+          "correct": false
+        },
+        {
+          "option": "Espada",
+          "correct": false
+        },
+        {
+          "option": "Machado",
+          "correct": false
+        },
+        {
+          "option": "Motosserra",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "anime": "Chainsaw Man",
+      "difficulty": 1,
+      "question": "O que Pochita, o cão de Denji, se transforma após sua morte?",
+      "response": [
+        {
+          "option": "A arma de Denji",
+          "correct": true
+        },
+        {
+          "option": "Um demônio poderoso",
+          "correct": false
+        },
+        {
+          "option": "Um gato",
+          "correct": false
+        },
+        {
+          "option": "Uma espada mágica",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "anime": "Chainsaw Man",
+      "difficulty": 3,
+      "question": "Qual é o nome do antagonista na série?",
+      "response": [
+        {
+          "option": "Darkness Devil",
+          "correct": false
+        },
+        {
+          "option": "Makima",
+          "correct": true
+        },
+        {
+          "option": "Angel Devil",
+          "correct": false
+        },
+        {
+          "option": "Power",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "anime": "Chainsaw Man",
+      "difficulty": 1,
+      "question": "Quem é o líder da Divisão Especial de Controle de Monstros?",
+      "response": [
+        {
+          "option": "Power",
+          "correct": false
+        },
+        {
+          "option": "Aki",
+          "correct": false
+        },
+        {
+          "option": "Makima",
+          "correct": true
+        },
+        {
+          "option": "Kishibe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id":9,
+      "anime": "Chainsaw Man",
+      "difficulty": 3,
+      "question": "Qual é a principal fraqueza de Denji quando se transforma em Chainsaw Man?",
+      "response": [
+        {
+          "option": "Perde a memória",
+          "correct": false
+        },
+        {
+          "option": "Não pode se mover",
+          "correct": false
+        },
+        {
+          "option": "Fica cego",
+          "correct": false
+        },
+        {
+          "option": "Perda de muito sangue e combustível",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "anime": "Chainsaw Man",
+      "difficulty": 2,
+      "question": "Qual é a habilidade especial de Aki em Chainsaw Man?",
+      "response": [
+        {
+          "option": "Força sobre-humana",
+          "correct": false
+        },
+        {
+          "option": "Manifestação da motosserra",
+          "correct": false
+        },
+        {
+          "option": "Raposa gigante que come seus inimigos ou os fere gravemente.",
+          "correct": true
+        },
+        {
+          "option": "Força Aprimorada",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "anime": "Chainsaw Man",
+      "difficulty": 1,
+      "question": "Qual é o objetivo de Denji na série?",
+      "response": [
+        {
+          "option": "Tocar uma mulher",
+          "correct": true
+        },
+        {
+          "option": "Dominar todos os demônios",
+          "correct": false
+        },
+        {
+          "option": "Encontrar Pochita",
+          "correct": false
+        },
+        {
+          "option": "Tornar-se extremamente forte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "anime": "Chainsaw Man",
+      "difficulty": 2,
+      "question": "O que é necessário para Denji se transformar em Chainsaw Man?",
+      "response": [
+        {
+          "option": "Puxar a corda da motossera",
+          "correct": true
+        },
+        {
+          "option": "Beber sangue de demônio",
+          "correct": false
+        },
+        {
+          "option": "Recitar uma fórmula mágica",
+          "correct": false
+        },
+        {
+          "option": "Usar uma arma especial",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 13,  
+      "anime": "Demon Slayer",
+        "difficulty": 2,
+        "question": "Qual é a respiração utilizada pelo protagonista Tanjiro Kamado?",
+        "response": [
+          {
+            "option": "Respiração do Sol",
+            "correct": true
+          },
+          {
+            "option": "Respiração do Fogo",
+            "correct": false
+          },
+          {
+            "option": "Respiração do Trovão",
+            "correct": false
+          },
+          {
+            "option": "Respiração do Vento",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "anime": "Demon Slayer",
+        "difficulty": 1,
+        "question": "Qual é o nome da irmã de Tanjiro, que se transformou em um demônio?",
+        "response": [
+          {
+            "option": "Shinobu Kocho",
+            "correct": false
+          },
+          {
+            "option": "Kanao Tsuyuri",
+            "correct": false
+          },
+          {
+            "option": "Nezuko Kamado",
+            "correct": true
+          },
+          {
+            "option": "Mitsuri Kanroji",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "anime": "Demon Slayer",
+        "difficulty": 3,
+        "question": "Quem matou o Kyojuro Rengoku, Hashira das Chamas?",
+        "response": [
+          {
+            "option": "Tamayo",
+            "correct": false
+          },
+          {
+            "option": "Yushiro",
+            "correct": false
+          },
+          {
+            "option": "Nezuko Kamado",
+            "correct": false
+          },
+          {
+            "option": "Akaza",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "anime": "Demon Slayer",
+        "difficulty": 2,
+        "question": "Qual é o nome da organização de caçadores de demônios em Demon Slayer?",
+        "response": [
+          {
+            "option": "Corpo de Caçadores de Demônios",
+            "correct": true
+          },
+          {
+            "option": "Esquadrão de Caçadores de Onis",
+            "correct": false
+          },
+          {
+            "option": "Tropa de Caçadores de Monstros",
+            "correct": false
+          },
+          {
+            "option": "Corpo de Extermínio de Onis",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "anime": "Demon Slayer",
+        "difficulty": 1,
+        "question": "Qual é a espécie de demônios que Tanjiro enfrenta na série?",
+        "response": [
+          {
+            "option": "Onis",
+            "correct": false
+          },
+          {
+            "option": "Yokais",
+            "correct": false
+          },
+          {
+            "option": "Kishin",
+            "correct": false
+          },
+          {
+            "option": "Onis",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "anime": "Demon Slayer",
+        "difficulty": 3,
+        "question": "Quem é o Hashira da Serpente em Demon Slayer?",
+        "response": [
+          {
+            "option": "Gyomei Himejima",
+            "correct": false
+          },
+          {
+            "option": "Obanai Iguro",
+            "correct": true
+          },
+          {
+            "option": "Sanemi Shinazugawa",
+            "correct": false
+          },
+          {
+            "option": "Shinobu Kocho",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "anime": "Demon Slayer",
+        "difficulty": 2,
+        "question": "Qual é o objetivo principal de Tanjiro em Demon Slayer?",
+        "response": [
+          {
+            "option": "Encontrar o assassino de sua família",
+            "correct": false
+          },
+          {
+            "option": "Tornar-se o Hashira das Chamas",
+            "correct": false
+          },
+          {
+            "option": "Derrotar Muzan Kibutsuji e curar sua irmã Nezuko",
+            "correct": true
+          },
+          {
+            "option": "Encontrar o lendário Demônio dos Sonhos",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "anime": "Demon Slayer",
+        "difficulty": 1,
+        "question": "Qual é a técnica respiratória utilizada por Zenitsu Agatsuma?",
+        "response": [
+          {
+            "option": "Respiração do Vento",
+            "correct": false
+          },
+          {
+            "option": "Respiração da Água",
+            "correct": false
+          },
+          {
+            "option": "Respiração do Trovão",
+            "correct": true
+          },
+          {
+            "option": "Respiração do Fogo",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "anime": "Demon Slayer",
+        "difficulty": 2,
+        "question": "Qual é o nome do líder da organização de caçadores de demônios em Demon Slayer?",
+        "response": [
+          {
+            "option": "Muzan Kibutsuji",
+            "correct": false
+          },
+          {
+            "option": "Giyu Tomioka",
+            "correct": false
+          },
+          {
+            "option": "Kagaya Ubuyashiki",
+            "correct": true
+          },
+          {
+            "option": "Sakonji Urokodaki",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "anime": "Dragon Ball Z",
+        "difficulty": 2,
+        "question": "Qual é a transformação mais poderosa de Goku?",
+        "response": [
+          {
+            "option": "Super Saiyajin",
+            "correct": true
+          },
+          {
+            "option": "Namekuseijin",
+            "correct": false
+          },
+          {
+            "option": "Kaioken",
+            "correct": false
+          },
+          {
+            "option": "Android",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "anime": "Dragon Ball Z",
+        "difficulty": 1,
+        "question": "Quem é o vilão principal na saga de Namekusei?",
+        "response": [
+          {
+            "option": "Vegeta",
+            "correct": false
+          },
+          {
+            "option": "Freeza",
+            "correct": true
+          },
+          {
+            "option": "Cell",
+            "correct": false
+          },
+          {
+            "option": "Majin Buu",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "anime": "Dragon Ball Z",
+        "difficulty": 3,
+        "question": "Onde fica localizado a Sala do Tempo que Vegeta utiliza para treinar?",
+        "response": [
+          {
+            "option": "Plataforma Namekusei",
+            "correct": false
+          },
+          {
+            "option": "Planeta Freeza",
+            "correct": false
+          },
+          {
+            "option": "Planeta Vegeta",
+            "correct": false
+          },
+          {
+            "option": "Plataforma Celeste",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "anime": "Dragon Ball Z",
+        "difficulty": 2,
+        "question": "Qual é o nome do filho mais velho de Goku?",
+        "response": [
+          {
+            "option": "Goten",
+            "correct": false
+          },
+          {
+            "option": "Trunks",
+            "correct": false
+          },
+          {
+            "option": "Gohan",
+            "correct": true
+          },
+          {
+            "option": "Vegeta Jr.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "anime": "Dragon Ball Z",
+        "difficulty": 2,
+        "question": "Qual é a técnica utilizada por Piccolo para voar?",
+        "response": [
+          {
+            "option": "Kamehameha",
+            "correct": false
+          },
+          {
+            "option": "Bukû-jutsu",
+            "correct": true
+          },
+          {
+            "option": "Genki Dama",
+            "correct": false
+          },
+          {
+            "option": "Taiyoken",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "anime": "Dragon Ball Z",
+        "difficulty": 3,
+        "question": "Quem é o androide mais poderoso criado pelo Dr. Gero?",
+        "response": [
+          {
+            "option": "Androide 17",
+            "correct": false
+          },
+          {
+            "option": "Super Androide 13",
+            "correct": false
+          },
+          {
+            "option": "Cell",
+            "correct": true
+          },
+          {
+            "option": "Super 17",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "anime": "Dragon Ball Z",
+        "difficulty": 2,
+        "question": "Qual é o nome do ataque mais poderoso de Vegeta?",
+        "response": [
+          {
+            "option": "Final Shine",
+            "correct": true
+          },
+          {
+            "option": "Galick Gun",
+            "correct": false
+          },
+          {
+            "option": "Big Bang Attack",
+            "correct": false
+          },
+          {
+            "option": "Solar Flare",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "anime": "Dragon Ball Z",
+        "difficulty": 3,
+        "question": "Quem é o Deus da Destruição que aparece em 'Dragon Ball Z'?",
+        "response": [
+          {
+            "option": "Beerus",
+            "correct": true
+          },
+          {
+            "option": "Whis",
+            "correct": false
+          },
+          {
+            "option": "Champa",
+            "correct": false
+          },
+          {
+            "option": "Vados",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "anime": "Dragon Ball Z",
+        "difficulty": 2,
+        "question": "Qual é o nome da fusão entre Goku e Vegeta?",
+        "response": [
+          {
+            "option": "Vegeto",
+            "correct": true
+          },
+          {
+            "option": "Gogeta",
+            "correct": false
+          },
+          {
+            "option": "Vegito",
+            "correct": false
+          },
+          {
+            "option": "Goketa",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+  
