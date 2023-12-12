@@ -88,5 +88,5 @@ def main():
     total_points = calculate_score(correct_count)
     print(f"\nQuiz finalizado!\nPerguntas corretas: {correct_count}\nPontuação total: {total_points}")
 
-#if __name__ == "__main__":
+#if _name_ == "_main_":
 #    main()

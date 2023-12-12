@@ -32,17 +32,22 @@ def start():
     return render_template('quiz.html', question=current_question, feedback=None)
 
 # Rota para processar as respostas do quiz
+# Rota para processar as respostas do quiz
 @bp.route('/quiz', methods=['POST'])
 def quiz():
     global current_question
-    user_response = int(request.form['user_response'])
+    if 'user_response' not in request.form:
+        return render_template('quiz.html', question=current_question, feedback="Por favor, selecione uma resposta.")
+    user_response = request.form['user_response']
+    
+    if user_response is None or user_response == '':
+        return render_template('quiz.html', question=current_question, feedback="Por favor, selecione uma resposta. 2")
+    user_response = int(user_response)
     correct = current_question.check_resposta(user_response)
     
     feedback = "Resposta correta!" if correct else "Resposta incorreta. A resposta correta é: {}".format(
         current_question.response[user_response - 1]["correct"]
     )
-    
-    # Adicione pontos ao singleton
     points_manager.add_points(5) if correct else points_manager.add_points(0)
     
     current_question = get_new_question()  # Obtenha a próxima pergunta

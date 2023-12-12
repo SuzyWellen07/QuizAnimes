@@ -8,14 +8,15 @@
 <body>
     <h1>Quiz de Anime</h1>
     
-    <form method="POST" action="{{ url_for('quiz') }}">
-        <p>{{ question.question }}</p>
+    <form method="POST" action="{{ url_for('routes.quiz') }}">    
+            <p>{{ question.question }}</p>
         
-        {% for i, option in enumerate(question.response, start=1) %}
-            <input type="radio" name="user_response" value="{{ i }}"> {{ option.option }}<br>
-        {% endfor %}
+        {% for option in question.response %}
+             <input type="radio" id="answer{{ loop.index }}" name="user_response" value="{{ loop.index }}" required>
+             <label for="answer{{ loop.index }}">{{ loop.index }}. {{ option['option'] }}</label><br>
 
-        <input type="submit" value="Responder">
+        {% endfor %}
+        <input type="submit" value="Enviar" />
     </form>
 
     <p>{{ feedback }}</p>

@@ -3,7 +3,7 @@ import random
 
 # Classe que representa uma pergunta
 class Question:
-    def __init__(self, id, question, response, difficulty, anime):
+    def _init_(self, id, question, response, difficulty, anime):
         self.id = id
         self.question = question
         self.response = response
@@ -44,9 +44,9 @@ class QuestionFactory:
 class PointsSingleton:
     _instance = None
 
-    def __new__(cls):
+    def _new_(cls):
         if cls._instance is None:
-            cls._instance = super(PointsSingleton, cls).__new__(cls)
+            cls.instance = super(PointsSingleton, cls).new_(cls)
             cls._instance.total_points = 0
         return cls._instance
 
@@ -90,18 +90,14 @@ def load_questions_from_json(file_name):
     questions = []
 
     for question_data in questions_data:
-<<<<<<< HEAD:back/teste.py
+
         id = question_data["id"]
         question = question_data["question"]
         response = question_data["response"]
         difficulty = question_data["difficulty"]
         anime = question_data["anime"]
         # questions.append(Question(id, question, response, difficulty, anime))
-        questions.append(QuestionFactory.create(question_data)
-=======
-        question = QuestionFactory.create(question_data)
-        questions.append(question)
->>>>>>> 25b6a9b (update):quiz_utils.py
+        questions.append(QuestionFactory.create(question_data))
 
     return questions
 
@@ -117,7 +113,7 @@ class RandomQuestionStrategy(QuestionSelectionStrategy):
 
 # Strategy de seleção por dificuldade
 class DifficultyQuestionStrategy(QuestionSelectionStrategy):
-    def __init__(self, difficulty):
+    def _init_(self, difficulty):
         self.difficulty = difficulty
 
     def select_question(self, questions):
